@@ -6,3 +6,21 @@
   font-style: normal;
 }
 
+.ghost-button {
+  background-color: #F1B300;
+  color:#191919;
+  border: 2px solid #F1B300 ;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.ghost-button:hover {
+  background-color: transparent ;
+  border: 2px solid #F1B300;
+  color: #191919;
+}
+

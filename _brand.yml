@@ -1,49 +1,56 @@
 meta:
   name: brand.yml
   links:
-    home: https://posit-dev.github.io/brand-yml
-    github: https://github.com/posit-dev/brand-yml
+    home: uidaho.edu
 
 logo:
   images:
-    icon-color: logos/icon/brand-yml-icon-color.png
-    wide-color: logos/wide/brand-yml-wide-color.png
-    tall-color: logos/wide/brand-yml-tall-color.png
+    icon-color: img/UI_stacked/UI_Main_stacked_4c.png
+    icon-dark:  img/UI_stacked/UI_Main_stacked_4c+W.png
+    wide-color: img/UI_horizontal/UI_Main_horizontal_4c.png
+    wide-dark:  img/UI_horizontal/UI_Main_horizontal_4c+W.png
   small: icon-color
-  medium: wide-color
-  large: tall-color
+ #medium: wide-color
+#large: tall-color
 
 color:
 
   palette:
+    ui-gold: "#F1B300"
+    ui-metalgold: "#857550"
+    ui-silver: "#808080"
+    ui-black: "#191919"
+    teal: "#008094"
+    purple: "#5E48FF" # for after
+
     orange: "#FF6F20"
     pink: "#FF3D7F"
     green: "#28A745"
-    yellow: "#FFC107"
+    
 
-  primary: orange
+  primary: ui-gold
   success: green
-  warning: yellow
+  warning: orange
   danger: pink
 
 typography:
 
   fonts:
-    - family: Open Sans
+    - family: Public Sans
       source: google
     - family: IBM Plex Mono
       source: google
-    - family: Rubik
-      source: google
+    - family: Gintronic
+      #source: google
 
   base:
-    family: Open Sans
+    family: Public Sans
     line-height: 1.6
   headings:
-    family: Rubik
+    family: Gintronic
     weight: normal
   link:
-    color: purple
+    color: teal
   monospace:
     family: IBM Plex Mono
     size: 1em

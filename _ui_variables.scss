@@ -4,11 +4,12 @@
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
 // Color system
-$ui-gold: #F1B300;
-$ui-metalgold: #857550;
-$ui-silver: #808080;
-$ui-black: #191919
-
+$ui-gold: #F1B300 !default;
+$ui-metalgold: #857550 !default;
+$ui-silver: #808080 !default;
+$ui-black: #191919 !default;
+$ui-teal: #008094 !default;
+$ui-purple: #5E48FF !default; 
 
 // scss-docs-start gray-color-variables
 $white:    #fff !default;
@@ -57,15 +58,15 @@ $cyan:    #0dcaf0 !default;
 $colors: (
   "blue":       $blue,
   "indigo":     $indigo,
-  "purple":     $purple,
+  "purple":     $ui-purple,
   "pink":       $pink,
   "red":        $red,
   "orange":     $orange,
-  "yellow":     $yellow,
+  "yellow":     $ui-gold,
   "green":      $green,
-  "teal":       $teal,
+  "teal":       $ui-teal,
   "cyan":       $cyan,
-  "black":      $black,
+  "black":      $ui-black,
   "white":      $white,
   "gray":       $gray-600,
   "gray-dark":  $gray-800
