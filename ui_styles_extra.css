@@ -1,10 +1,4 @@
 
-.public-sans-<uniquifier> {
-  font-family: "Public Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
 .ghost-button {
   background-color: #F1B300;
